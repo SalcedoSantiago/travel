@@ -1,1 +1,1 @@
-# travel page from AR Shakir
+# travel page from AR Shakir design
