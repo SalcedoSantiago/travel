@@ -4,6 +4,7 @@ import satelite from '../../assets/satelite.png';
 import flight from '../../assets/flight.png';
 import micro from '../../assets/micro.png';
 import settings from '../../assets/settings.png';
+import CategoryIcon from '../Components/CategoryIcon';
 
 
 const Information = [
@@ -34,7 +35,8 @@ const Information = [
 export const Category = () => {
 
     return (
-        <Stack direction={'column'} alignItems='center' spacing={20} py={6}>
+        <Stack direction={'column'} alignItems='center' spacing={20} py={6} position="relative">
+            <CategoryIcon />
             <Flex justifyContent={'center'}>
                 <Box textAlign={'center'}>
                     <Heading

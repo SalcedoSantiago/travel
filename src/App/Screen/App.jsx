@@ -3,6 +3,7 @@ import React from 'react'
 import { Category } from './Category'
 import Header from './Header'
 import Selling from './Selling'
+import Testimonials from './Testimonials'
 import Trip from './Trip'
 
 const App = () => {
@@ -13,6 +14,7 @@ const App = () => {
         <Category />
         <Selling />
         <Trip />
+        <Testimonials />
       </Container>
     </div>
   )
