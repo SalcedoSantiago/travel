@@ -1,7 +1,10 @@
 import { Container } from '@chakra-ui/react'
 import React from 'react'
+import Brands from './Brands'
 import { Category } from './Category'
+import Footer from './Footer'
 import Header from './Header'
+import NewsLetter from './NewsLetter'
 import Selling from './Selling'
 import Testimonials from './Testimonials'
 import Trip from './Trip'
@@ -15,6 +18,9 @@ const App = () => {
         <Selling />
         <Trip />
         <Testimonials />
+        <Brands />
+        <NewsLetter />
+        <Footer />
       </Container>
     </div>
   )

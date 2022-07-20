@@ -55,10 +55,11 @@ const Testimonials = () => {
                 <Flex justifyContent={'center'} w="50%">
                     <Stack direction={'row'} alignItems='center' spacing={6}>
                         <Testimonial />
-                        <Stack pl={6} direction='column' spacing={6}>
-                            <FaChevronUp color={'#BCB7C2'} cursor="pointer" />
+                        <Stack pl={6} direction='column' spacing={6} zIndex={9999}>
+                            <FaChevronUp  color={'#BCB7C2'} cursor="pointer" />
                             <FaChevronDown cursor="pointer" />
                         </Stack>
+
                     </Stack>
 
                 </Flex>
