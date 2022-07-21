@@ -18,6 +18,8 @@ const Selling = () => {
             py={6}
             pt={'120px'}
             position='relative'
+            maxW="100%"
+            overflow={'hidden'}
         >
             <Flex justifyContent={'center'}>
                 <Box textAlign={'center'}>

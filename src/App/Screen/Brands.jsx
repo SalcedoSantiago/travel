@@ -10,7 +10,12 @@ import brand5 from '../../assets/brand5.png';
 
 const Brands = () => {
     return (
-        <Box py={'120px'} mt={'60px'}>
+        <Box
+            py={'120px'}
+            mt={'60px'}
+            maxW="100%"
+            overflow={'hidden'}
+        >
             <Stack direction={'row'} justifyContent='space-between'>
                 <Image px={3} src={brand1} objectFit="contain" />
                 <Image px={3} src={brand2} objectFit="contain" />

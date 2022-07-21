@@ -21,6 +21,8 @@ const Trip = () => {
             pt={'120px'}
             position='relative'
             w="100%"
+            maxW="100%"
+            overflow={'hidden'}
         >
             <Stack direction={['column', 'column', 'row']}  w="100%" alignItems={'center'}>
                 <Box w={['100%', '100%', '50%']}>

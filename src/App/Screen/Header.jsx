@@ -51,7 +51,6 @@ const Header = () => {
                                 bgColor="orange.300"
                                 colorScheme="orange"
                             // variant='outline'
-
                             />
                             <MenuList
                             >

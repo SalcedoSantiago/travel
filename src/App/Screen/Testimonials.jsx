@@ -46,7 +46,7 @@ const Testimonials = () => {
                         about Us.
                     </Heading>
 
-                    <Stack direction={'row'} spacing={6} py={'50px'}>
+                    <Stack direction={'row'} justifyContent={['center','center','start']} spacing={6} py={'50px'}>
                         <FaCircle cursor="pointer" fontSize={'12px'} />
                         <FaCircle cursor="pointer" fontSize={'12px'} color={'#BCB7C2'} />
                         <FaCircle cursor="pointer" fontSize={'12px'} color={'#BCB7C2'} />
