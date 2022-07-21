@@ -16,7 +16,7 @@ const NewsLetter = () => {
 
 
     return (
-        <Box py={4} position='relative'>
+        <Box py={6} pb={'100px'} position='relative'>
             <SendIcon />
             <Stack
                 h={"407px"}

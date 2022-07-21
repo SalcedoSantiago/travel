@@ -33,6 +33,7 @@ const Header = () => {
                                     fontWeight={600}
                                     textTransform='capitalize'
                                     fontFamily={'Poppins'}
+                                    fontSize="17px"
                                     _hover={{ color: 'orange.500' }}
                                     cursor='pointer'
                                 >
