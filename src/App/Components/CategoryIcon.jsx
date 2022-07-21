@@ -2,7 +2,7 @@ import React from 'react'
 
 const CategoryIcon = () => {
     return (
-        <svg style={{ position: 'absolute', right: '-150px', top: '100px' }} width="153" height="166" viewBox="0 0 153 166" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <svg style={{ position: 'absolute', right: '0', top: '100px' }} width="153" height="166" viewBox="0 0 153 166" fill="none" xmlns="http://www.w3.org/2000/svg">
             <path d="M11.5586 12.6104V14.4795H0.837891V12.6104H11.5586ZM7.19727 8.04492V19.4316H5.20996V8.04492H7.19727Z" fill="#FF7152" />
             <path d="M11.5586 47.6104V49.4795H0.837891V47.6104H11.5586ZM7.19727 43.0449V54.4316H5.20996V43.0449H7.19727Z" fill="#E5E5E5" />
             <path d="M11.5586 82.6104V84.4795H0.837891V82.6104H11.5586ZM7.19727 78.0449V89.4316H5.20996V78.0449H7.19727Z" fill="#E5E5E5" />

@@ -22,8 +22,8 @@ const Trip = () => {
             position='relative'
             w="100%"
         >
-            <Stack direction={'row'} w="100%" alignItems={'center'}>
-                <Box w="50%">
+            <Stack direction={['column', 'column', 'row']}  w="100%" alignItems={'center'}>
+                <Box w={['100%', '100%', '50%']}>
                     <Heading
                         textTransform={'capitalize'}
                         color={'gray.500'}

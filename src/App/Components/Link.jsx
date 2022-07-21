@@ -9,6 +9,7 @@ const Link = ({ children }) => {
             color="#5E6282"
             fontFamily={"Poppins"}
             cursor="pointer"
+            textAlign={['center','center','start']}
         >{children}</Text>
     )
 }

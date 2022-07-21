@@ -14,8 +14,8 @@ import heroImage from '../../assets/hero.png'
 const Hero = () => {
     return (
         <Stack py={6} flex="1">
-            <Stack direction={'row'} alignItems='center'>
-                <Box w={'50%'}>
+            <Stack direction={['column', 'column', 'row']} alignItems='center'>
+                <Box w={['100%', '100%', '50%']}>
                     <Heading
                         as='h2'
                         textTransform={'uppercase'}

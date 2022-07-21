@@ -35,7 +35,7 @@ const Information = [
 export const Category = () => {
 
     return (
-        <Stack direction={'column'} alignItems='center' spacing={20} py={6} position="relative">
+        <Stack direction={'column'} alignItems='center' spacing={20} py={6} position="relative" maxW={'100%'} overflow='hidden'>
             <CategoryIcon />
             <Flex justifyContent={'center'}>
                 <Box textAlign={'center'}>
@@ -59,7 +59,7 @@ export const Category = () => {
                     </Heading>
                 </Box>
             </Flex>
-            <Stack direction={'row'} spacing={10} py={6}>
+            <Stack direction={['column', 'column', 'row']} spacing={10} py={6}>
                 {
                     Information.map(({ title, image, desc }, index) =>
                         <Stack

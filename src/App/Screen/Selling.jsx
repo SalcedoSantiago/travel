@@ -41,7 +41,7 @@ const Selling = () => {
                     </Heading>
                 </Box>
             </Flex>
-            <Stack direction={'row'} spacing={12} py={6}>
+            <Stack direction={['column', 'column', 'row']}  spacing={12} py={6}>
                 {
                     [1, 2, 3].map((index) =>
                         <Stack

@@ -23,8 +23,8 @@ const Testimonials = () => {
             position='relative'
             w="100%"
         >
-            <Stack direction={'row'} w="100%" alignItems={'center'} >
-                <Box w="50%">
+            <Stack direction={['column', 'column', 'row']} w="100%" alignItems={'center'} >
+                <Box w={['100%','100%','50%']}>
                     <Heading
                         textTransform={'capitalize'}
                         color={'gray.500'}
@@ -52,7 +52,7 @@ const Testimonials = () => {
                         <FaCircle cursor="pointer" fontSize={'12px'} color={'#BCB7C2'} />
                     </Stack>
                 </Box>
-                <Flex justifyContent={'center'} w="50%">
+                <Flex justifyContent={'center'} w={['100%','100%','50%']}>
                     <Stack direction={'row'} alignItems='center' spacing={6}>
                         <Testimonial />
                         <Stack pl={6} direction='column' spacing={6} zIndex={9999}>

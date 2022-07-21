@@ -38,7 +38,9 @@ const NewsLetter = () => {
                     textAlign={'center'}
                     color="#5E6282"
                     fontFamily={'Poppins'}
-                    fontSize="33px"
+                    fontSize={'xl'}
+                    maxW='500px'
+                    lineHeight={2}
                     fontWeight={600}
                 >
                     Subscribe to get information, latest news and other

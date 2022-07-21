@@ -1,16 +1,18 @@
 import React from 'react'
-import { Box, Image } from '@chakra-ui/react';
+import { Box, Flex, Image } from '@chakra-ui/react';
 import logo from '../../assets/logo.png';
 
 const Logo = () => {
     return (
-        <Box>
+        <Flex
+            justifyContent={['center', 'center', 'start']}
+        >
             <Image
                 cursor="pointer"
                 src={logo}
                 alt='Dan Abramov'
             />
-        </Box>
+        </Flex>
     )
 }
 
