@@ -46,8 +46,8 @@ const NewsLetter = () => {
                     Subscribe to get information, latest news and other
                     interesting offers about Cobham
                 </Heading>
-                <Stack direction={'row'} alignItems='center' py={6}>
-                    <InputGroup minW="400px">
+                <Stack direction={['column','column','row']} alignItems='center' py={6}>
+                    <InputGroup minW="auto" >
                         <InputLeftAddon
                             children={<IoMailOutline />}
                             bgColor='white'
