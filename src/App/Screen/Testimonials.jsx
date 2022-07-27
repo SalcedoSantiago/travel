@@ -2,7 +2,7 @@
  * External dependencies
  */
 import React from 'react';
-import { Box, Flex, Heading, Image, Stack, Text } from '@chakra-ui/react';
+import { Box, Flex, Heading, Stack, } from '@chakra-ui/react';
 import { FaChevronUp, FaChevronDown, FaCircle } from 'react-icons/fa';
 
 /**
@@ -24,7 +24,7 @@ const Testimonials = () => {
             w="100%"
         >
             <Stack direction={['column', 'column', 'row']} w="100%" alignItems={'center'} >
-                <Box w={['100%','100%','50%']}>
+                <Box w={['100%', '100%', '50%']}>
                     <Heading
                         textTransform={'capitalize'}
                         color={'gray.500'}
@@ -46,17 +46,17 @@ const Testimonials = () => {
                         about Us.
                     </Heading>
 
-                    <Stack direction={'row'} justifyContent={['center','center','start']} spacing={6} py={'50px'}>
+                    <Stack direction={'row'} justifyContent={['center', 'center', 'start']} spacing={6} py={'50px'}>
                         <FaCircle cursor="pointer" fontSize={'12px'} />
                         <FaCircle cursor="pointer" fontSize={'12px'} color={'#BCB7C2'} />
                         <FaCircle cursor="pointer" fontSize={'12px'} color={'#BCB7C2'} />
                     </Stack>
                 </Box>
-                <Flex justifyContent={'center'} w={['100%','100%','50%']}>
+                <Flex justifyContent={'center'} w={['100%', '100%', '50%']}>
                     <Stack direction={'row'} alignItems='center' spacing={6}>
                         <Testimonial />
                         <Stack pl={6} direction='column' spacing={6} zIndex={9999}>
-                            <FaChevronUp  color={'#BCB7C2'} cursor="pointer" />
+                            <FaChevronUp color={'#BCB7C2'} cursor="pointer" />
                             <FaChevronDown cursor="pointer" />
                         </Stack>
 
